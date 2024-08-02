@@ -11,7 +11,7 @@ public class Locators {
 
         PageFactory.initElements(Browser.driver, this);
     }
-    //Login
+                         //Login
     @FindBy(xpath = "//*[@id=\"cookies-notification\"]/div")
     public static WebElement cookies;
     @FindBy(xpath = "//*[@id=\"UserName\"]")
@@ -21,7 +21,7 @@ public class Locators {
     @FindBy(xpath = "//button[normalize-space()='Login']")
     public static WebElement loginbutton;
 
-    //Logout
+                        //Logout
     @FindBy(xpath = "//div[@class='logo-text']")
     public static WebElement headerLogo;
     @FindBy(xpath = "//*[@id=\"navbar-container\"]/div[2]/ul/li/a/i")
@@ -29,12 +29,12 @@ public class Locators {
     @FindBy(xpath = "//*[@id=\"navbar-container\"]/div[2]/ul/li/ul/li[3]/a")
     public static WebElement userlogout;
 
-    //HomePage
+                        //HomePage
     @FindBy(xpath = "//span[normalize-space()='Return Orders']")
     public static WebElement goToReturnOrders;
 
 
-    //Return Orders page
+                      //Return Orders page
 
     @FindBy(xpath = "//button[@id='search-button']")
     public static WebElement searchbutton; //click
@@ -43,7 +43,7 @@ public class Locators {
     @FindBy(id = "spin")
     public static WebElement spinner;     //assert get text = randomNumber
 
-    //order detail page
+                     //order detail page
 
     @FindBy(xpath = "//a[normalize-space()='Download label']")//order detail page
     public static WebElement orderassert;        //  assert get text = randomNumber
